@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
     ss.source_files  = "Nimble_Snapshots/*.{h,m,swift}",
                         "Nimble_Snapshots/DynamicType/*.{swift,m,h}",
                         "Nimble_Snapshots/DynamicSize/*.{swift}"
-    ss.dependency "iOSSnapshotTestCase", :git => 'git@github.com:nubank/nuinvest-ios-snapshot-test-case.git', :branch => 'master'
+    ss.dependency "iOSSnapshotTestCase", :git => 'git@github.com:nubank/nuinvest-ios-snapshot-test-case.git', :branch => 'main'
     ss.dependency "Nimble"
   end
 
